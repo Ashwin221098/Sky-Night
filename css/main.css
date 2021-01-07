@@ -50,6 +50,21 @@ body{
      height: 610px;
      background-color: #008b8b4d;
 }
+#about .section-title{
+     height: 155px;
+}
+#about .section-content .f-container{
+     display: flex;
+     justify-content: space-around;
+     padding: 20px;
+}
+#about .section-content .f-item{
+     background-color: #fff;
+     flex-basis: 41%;
+     padding: 24px;
+     border: 1px solid white;
+     border-radius: 2px; 
+}
 
 /* Skills */
 #skills{
@@ -102,10 +117,8 @@ body{
      display: flex;
      flex-wrap: wrap;
      justify-content: space-around;
-     
-
- }
- #service .section-content .f-item{
+}
+#service .section-content .f-item{
      background-color: #fff;
      flex-basis: 22%;
      padding: 30px;
@@ -128,16 +141,42 @@ body{
 
 /* Team */
 #team{
-     height: 500px;
+     height: 385px;
      background-color: #d2691e8f;
+     padding: 58px;
 }
-
+#team .section-title{
+     height: 155px;
+}
+#team .section-content .f-container{
+     display: flex;
+     justify-content: space-around;
+}
+#team .section-content .f-item{
+     background-color: #fff;
+     flex-basis: 22%;
+     border: 1px solid white;
+     border-radius: 2px; 
+}
 /* Pricing */
 #pricing{
      height: 541px;
      background-color: #8b008b61;
 }
-
+#pricing .section-title{
+     height: 155px;
+}
+#pricing .section-content .f-container{
+     display: flex;
+     justify-content: space-around;
+}
+#pricing .section-content .f-item{
+     background-color: #fff;
+     flex-basis: 16%;
+     padding: 23px;
+     border: 1px solid rgb(204, 193, 193);
+     border-radius: 2px; 
+}
 /* FQA */
 #faq{
      height: 493px;
@@ -160,6 +199,14 @@ body{
 #footer{
      height: 255px;
      background-color: #00008b52;
+}
+#footer .f-container{
+     display: flex;
+     justify-content: space-around;
+}
+#footer .f-item{
+    flex-basis: 12%;
+    padding: 45px;
 }
 
 /* Legals */
