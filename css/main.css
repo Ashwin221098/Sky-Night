@@ -14,12 +14,22 @@ body{
      background-color: #f3ec2059;
      height: 30px;
 }
-    
+#quick-links .f-container{
+     display: flex;
+     justify-content: space-between;
+}
+#quick-links .f-container .f-item{}    
+
 /* Header */
 #header{
      height: 70px;
      background-color: #b58fbca6;
 }
+#header .f-container{
+     display: flex;
+     justify-content: space-between;
+}
+#header .f-container .f-item{}    
 
 /* Welcome */
 #banner{
@@ -70,6 +80,16 @@ body{
 #skills{
      height: 200px;
      background-color: #a52a2a47;
+}
+#skills .f-container{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+
+}
+#skills .f-item{
+     flex-basis: 28%;
+     padding: 20px ;
 }
 
 /* Statistics */
@@ -188,6 +208,28 @@ body{
      height: 662px;  
      background-color: #8fbc8f4a;
 }
+#contact .section-title{
+     height: 238px ;
+}
+#contact .section-content{}
+#contact .f-container{
+     display: flex;
+     flex-wrap: wrap;
+}
+#contact .f-item{
+     background-color: #fff;
+     border: 1px solid white;
+     text-align: center;
+     padding: 20px;
+     margin: 20px;
+}
+#contact .f-item.size-a{
+     flex-basis: 17%;
+}
+#contact .f-item.size-z{
+     flex-basis: 24%;
+}
+
 
 /* Newsletter */
 #newsletter{
@@ -214,3 +256,8 @@ body{
      height: 57px;
      background-color: #ffd7004a;
 }
+#legals .f-container{
+     display: flex;
+     justify-content: space-between;
+}
+#legals .f-container .f-item{}    
