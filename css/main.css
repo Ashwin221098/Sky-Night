@@ -1,6 +1,7 @@
 body{
      background-image: url('../images/reference.png');
      height: 6736px;
+     font-family: 'Poppins', 'Arial', sans-serif;
 }
 
 /* Common Styles */
@@ -8,6 +9,18 @@ body{
     width: 742px;
     margin: 0 auto;
 }
+.primary-btn{
+     background: #106eea;
+     display: inline-block;
+     padding: 8px 13px;
+     color: #fff;
+     border-radius: 4px;
+     text-decoration: none;
+ }
+ .secondary-btn{
+     color: #000;
+     text-decoration: none;
+ }
 
 /* Quick Links */
 #quick-links{
@@ -34,8 +47,42 @@ body{
 /* Welcome */
 #banner{
      height: 445px;
-     background-color: #8a2be2ad;
+     background-image: url(../images/reference2.jpg);
+     background-size: cover;
+     position: relative;
 }
+#banner .white-overlay {
+     background: rgba(255, 255, 255, 0.6);
+     position: absolute;
+     bottom: 0;
+     top: 0;
+     left: 0;
+     right: 0;
+ }
+ #banner .f-container{
+     display: flex;
+     position: relative;
+     z-index: 2;
+ }
+ #banner h1{
+     padding-top: 165px;
+     font-size: 36px;
+     padding-bottom: 10px;
+ }
+ #banner h1 span{
+     color: #106eea;
+ }
+ #banner p{
+     font-size: 16px;
+     padding-bottom: 23px;
+ }
+ #banner .cta-wrapper{}
+ #banner .cta-wrapper a{}
+ #banner .cta-wrapper a.primary-btn{
+     margin-right: 10px;
+ }
+ #banner .cta-wrapper a.secondary-btn{}
+ 
 
 /* Highlights */
 #highlights{
