@@ -18,10 +18,45 @@ body{
      text-decoration: none;
  }
  .secondary-btn{
-     color: #000;
+     color:  #000;
      text-decoration: none;
+     line-height: 20px;
  }
-
+ .secondary-btn i{
+      font-size: 20px;
+      color: #106eea;
+      padding-right: 5px;
+ }
+.section-title{
+     text-align: center;
+     padding: 44px;
+}
+.section-title h4{
+     padding-bottom: 14px;
+}
+.section-title h4 span{
+     background-color: #e7f1fd;
+     border-radius: 14px;
+     padding: 7px 17px;
+     display: inline-block;
+     color: #106eea;
+     font-size: 12px;
+     font-weight: 100px; 
+}
+.section-title h2{
+     font-size: 25px;
+     color: #444444;
+     margin-bottom: 14px;  
+}
+.section-title h2 span{
+     color: #106eea; 
+}
+.section-title p{
+     max-width: 587px;
+     margin: auto;
+     line-height: 18px;
+}
+ 
 /* Quick Links */
 #quick-links{
      background-color: #f3ec2059;
@@ -81,7 +116,9 @@ body{
  #banner .cta-wrapper a.primary-btn{
      margin-right: 10px;
  }
- #banner .cta-wrapper a.secondary-btn{}
+ #banner .cta-wrapper a.secondary-btn{
+     
+ }
  
 
 /* Highlights */
@@ -105,7 +142,7 @@ body{
 /* About */
 #about{
      height: 610px;
-     background-color: #008b8b4d;
+     background-color: #f6f9fe;
 }
 #about .section-title{
      height: 155px;
@@ -143,7 +180,6 @@ body{
 #statistics{
      height: 198px;
      background-color: #556b2f4f;
-     
 }
 #statistics .f-container{
      display: flex;
@@ -173,9 +209,7 @@ body{
 
 /* Service */
 #service{
-     height: 688px;
-     background-color: #fa807254;
-     padding: 58px 0 0 0;
+     height: 747px;
 }
 #service .section-title{
      height: 200px;
@@ -203,14 +237,12 @@ body{
 /* Portfolio */
 #portfolio{
      height: 1077px;
-     background-color: #ff149352;
 }
 
 /* Team */
 #team{
-     height: 385px;
-     background-color: #d2691e8f;
-     padding: 58px;
+     height: 500px;
+     background-color: #f6f9fe; 
 }
 #team .section-title{
      height: 155px;
@@ -227,8 +259,7 @@ body{
 }
 /* Pricing */
 #pricing{
-     height: 541px;
-     background-color: #8b008b61;
+     height: 539px;
 }
 #pricing .section-title{
      height: 155px;
@@ -239,21 +270,19 @@ body{
 }
 #pricing .section-content .f-item{
      background-color: #fff;
-     flex-basis: 16%;
-     padding: 23px;
+     flex-basis: 22%;
      border: 1px solid rgb(204, 193, 193);
      border-radius: 2px; 
 }
 /* FQA */
 #faq{
      height: 493px;
-     background-color: #8b000057;
+     background-color: #f6f9fe;
 }
 
 /* Contact */
 #contact{
      height: 662px;  
-     background-color: #8fbc8f4a;
 }
 #contact .section-title{
      height: 238px ;
@@ -281,13 +310,11 @@ body{
 /* Newsletter */
 #newsletter{
      height: 177px;
-     background-color: #ed143d52;
 }
 
 /* Footer */
 #footer{
      height: 255px;
-     background-color: #00008b52;
 }
 #footer .f-container{
      display: flex;
@@ -301,7 +328,6 @@ body{
 /* Legals */
 #legals{
      height: 57px;
-     background-color: #ffd7004a;
 }
 #legals .f-container{
      display: flex;
