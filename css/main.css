@@ -1,12 +1,12 @@
 body{
-     background-image: url('../images/reference.png');
-     height: 6736px;
+     /* background-image: url('../images/reference.png'); */
+     /* height: 6349px; */
      font-family: 'Poppins', 'Arial', sans-serif;
 }
 
 /* Common Styles */
 .container{
-    width: 742px;
+    width: 900px;
     margin: 0 auto;
 }
 .primary-btn{
@@ -29,7 +29,7 @@ body{
  }
 .section-title{
      text-align: center;
-     padding: 44px;
+     padding: 42px;
 }
 .section-title h4{
      padding-bottom: 14px;
@@ -59,29 +59,56 @@ body{
  
 /* Quick Links */
 #quick-links{
-     background-color: #f3ec2059;
-     height: 30px;
+     background-color: #106EEA;
+     height: 40px;
 }
 #quick-links .f-container{
      display: flex;
      justify-content: space-between;
+     padding-top: 13px;
 }
-#quick-links .f-container .f-item{}    
+#quick-links .f-container .f-item{
+     text-decoration: none;  
+     color: #FFFFFF; 
+     font-size: 15px;
+}
+#quick-links .f-container .f-item a{
+     text-decoration: none;
+     color: #C4DCFA;
+     padding: 11px;
+     font-size: 14px;
+}    
 
 /* Header */
 #header{
-     height: 70px;
-     background-color: #b58fbca6;
+     height: 95px;
+     background-color: #FFFFFF;
 }
 #header .f-container{
      display: flex;
      justify-content: space-between;
 }
-#header .f-container .f-item{}    
+#header .f-container .f-item{
+     padding-top: 30px;
+     color: #222222;
+}
+#header .f-container .f-item h1{
+    font-size: 30px;
+}
+#header .f-container .f-item span{
+     color: #106EEA;
+}
+#header .f-container .f-item a{
+     padding: 10px;
+     color: #707070;
+     font-size: 12px;
+     font-weight: 700;
+     text-decoration: none;
+}
 
 /* Welcome */
 #banner{
-     height: 445px;
+     height: 431px;
      background-image: url(../images/reference2.jpg);
      background-size: cover;
      position: relative;
@@ -101,47 +128,58 @@ body{
  }
  #banner h1{
      padding-top: 165px;
-     font-size: 36px;
-     padding-bottom: 10px;
+     font-size: 45px;
+     padding-bottom: 15px;
  }
  #banner h1 span{
      color: #106eea;
  }
  #banner p{
-     font-size: 16px;
-     padding-bottom: 23px;
+     color: #737A7D;
+     font-size: 22px;
+     padding-bottom: 30px;
  }
- #banner .cta-wrapper{}
- #banner .cta-wrapper a{}
+
  #banner .cta-wrapper a.primary-btn{
      margin-right: 10px;
- }
- #banner .cta-wrapper a.secondary-btn{
-     
+     padding: 10px 21px;
+     font-size: 15px;
  }
  
-
-/* Highlights */
-#highlights{
-     height: 217px;
-     background-color: #00ffff3b;
+ /* Highlights */
+ #highlights{
+     height: 200px;
+     background-color: #FFFFFF;
      padding: 58px 0 0 0;
 }
-#highlights .f-container{
+ #highlights .f-container{
      display: flex;
      justify-content: space-around;
  }
  #highlights .f-item{
      background-color: #fff;
-     flex-basis: 20%;
-     padding: 10px;
-     box-shadow: #d5d5d5 0px 0px 15px;
+     flex-basis: 18%;
+     padding: 17px;
+     box-shadow: #d5d5d5 0px 0px 10px;
      border-radius: 8px;
+ }
+ #highlights .f-item i{
+      color: #106eea;
+      font-size: 40px;
+ }
+ #highlights .f-item h4{
+      padding-top: 15px;
+      font-size: 14px;
+ }
+ #highlights .f-item p{
+      padding-top: 15px;
+      font-size: 10px;
+      color: #444444;
  }
 
 /* About */
 #about{
-     height: 610px;
+     height: 808px;
      background-color: #f6f9fe;
 }
 #about .section-title{
@@ -162,8 +200,8 @@ body{
 
 /* Skills */
 #skills{
-     height: 200px;
-     background-color: #a52a2a47;
+     height: 260px;
+     background-color: #FFFFFF;
 }
 #skills .f-container{
      display: flex;
@@ -178,8 +216,8 @@ body{
 
 /* Statistics */
 #statistics{
-     height: 198px;
-     background-color: #556b2f4f;
+     height: 260px;
+     background-color: #FFFFFF;
 }
 #statistics .f-container{
      display: flex;
@@ -187,16 +225,25 @@ body{
      padding-top: 20px;
 }
 #statistics .f-item{
-     background-color: rgb(218, 207, 207);
+     background-color: #F1F6FE;
      flex-basis: 14%;
      padding: 28px;
-     border: 1px solid rgb(189, 186, 186);
+     text-align: center;
+     border: 1px solid #FFFFFF;
+}
+#statistics .f-item h4{
+     font-size: 20px;
+     font-weight: 500;
+}
+#statistics .f-item p{
+     font-size: 10px;
+     padding: 9px;
 }
 
 /* Clients */
 #clients{
-     height: 74px;
-     background-color: #ff8c006b;
+     height: 80px;
+     background-color: #F6F9FE;
  }
  #clients .f-container{
       display: flex;
@@ -209,43 +256,61 @@ body{
 
 /* Service */
 #service{
-     height: 747px;
+     height: 670px;
+     background-color: #FFFFFF;
 }
 #service .section-title{
-     height: 200px;
+     height: 100px;
  }
  #service .section-content .f-container{
      display: flex;
      flex-wrap: wrap;
-     justify-content: space-around;
+     justify-content:space-around 
 }
 #service .section-content .f-item{
      background-color: #fff;
-     flex-basis: 22%;
-     padding: 30px;
-     margin-bottom: 17px;
-     border: 1px solid rgb(189, 186, 186);
-     border-radius: 2px;
+     flex-basis: 24%;
+     padding: 24px;
+     margin-bottom: 25px;
+     border: 1px solid #E2EEFD;
+     text-align: center;
+ }
+  #service .section-content .f-item i{
+      color: #438FF2;
+      background-color: #F1F6FE;
+      border: 1px solid #DEEBFD;
+      border-radius: 2px;
+      padding: 15px;
+      font-size: 28px;
+}
+#service .section-content .f-item h4{
+      padding-top: 45px;
+      font-size: 23x;
+}
+#service .section-content .f-item p{ 
+      padding-top: 24px;
+      font-size: 13px;
  }
 
-/* Textimonials */
+/* Testimonials */
 #textimonials{
-     height: 326px;
-     background-color: #a0522d66;
+     height: 434px;
+     background-color: #2C2B29;
 }
 
 /* Portfolio */
 #portfolio{
-     height: 1077px;
+     height: 1428px;
+     background-color: #FFFFFF; 
 }
 
 /* Team */
 #team{
-     height: 500px;
+     height: 667px;
      background-color: #f6f9fe; 
 }
 #team .section-title{
-     height: 155px;
+     height: 100px;
 }
 #team .section-content .f-container{
      display: flex;
@@ -253,13 +318,28 @@ body{
 }
 #team .section-content .f-item{
      background-color: #fff;
-     flex-basis: 22%;
-     border: 1px solid white;
+     flex-basis: 16%;
+     box-shadow: #d5d5d5 0px 0px 15px;
      border-radius: 2px; 
 }
+#team .section-content .f-item img{
+     max-width: 160px;
+}
+#team .section-content .f-item h4{
+     font-size: 14px;
+     padding: 14px;
+}
+#team .section-content .f-item p{
+     color: #B3B3B3;
+     font-size: 11px;
+     padding-left: 14px;
+     padding-bottom: 14px;
+}
+
 /* Pricing */
 #pricing{
-     height: 539px;
+     height: 712px;
+     background-color: #FFFFFF; 
 }
 #pricing .section-title{
      height: 155px;
@@ -274,18 +354,29 @@ body{
      border: 1px solid rgb(204, 193, 193);
      border-radius: 2px; 
 }
-/* FQA */
+/* FAQ */
 #faq{
-     height: 493px;
-     background-color: #f6f9fe;
+     height: 550px;
+     background-color: #F6F9FE;
 }
-
+#faq .section-title{
+     height: 100px;
+}
+#faq .section-content .f-container{
+     display: flex;
+     flex-wrap: wrap;
+}
+#faq .section-content .f-item{
+     line-height: 52px;
+     color: #444444;
+}
 /* Contact */
 #contact{
-     height: 662px;  
+     height: 882px;  
+     background-color: #FFFFFF;
 }
 #contact .section-title{
-     height: 238px ;
+     height: 90px ;
 }
 #contact .section-content{}
 #contact .f-container{
@@ -300,21 +391,44 @@ body{
      margin: 20px;
 }
 #contact .f-item.size-a{
-     flex-basis: 17%;
+     flex-basis: 16%;
 }
 #contact .f-item.size-z{
      flex-basis: 24%;
 }
 
-
 /* Newsletter */
 #newsletter{
-     height: 177px;
+     height: 238px;
+     background-color: #F1F6FE;;
+}
+.section-title{
+     padding: 36px;
+     color: #444444;
+}
+.section-title h4{
+      font-size: 20px;
+      text-align: center;
+      padding-bottom: 14px; 
+}
+.section-title p{
+       counter-reset: ;
+       font-size: 12px;
+       text-align: center;
+}
+.section-content form{
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    box-shadow: #d5d5d5 0px 0px 15px;
+    text-align: center;
 }
 
 /* Footer */
 #footer{
-     height: 255px;
+     height: 340px;
+     background-color: #FFFFFF;
 }
 #footer .f-container{
      display: flex;
@@ -327,10 +441,22 @@ body{
 
 /* Legals */
 #legals{
-     height: 57px;
+     height: 78px;
+     background-color: #F1F6FE;
 }
 #legals .f-container{
      display: flex;
      justify-content: space-between;
+     padding-top: 34px;
 }
-#legals .f-container .f-item{}    
+#legals .f-container .f-item{
+     font-size: 14px;
+}     
+#legals .f-container .f-item p{
+     text-decoration: none; 
+     color: #737A7D;
+
+}  
+#legals .f-container .f-item span{
+     color: #106EEA;
+}
