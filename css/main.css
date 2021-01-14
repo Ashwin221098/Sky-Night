@@ -253,6 +253,9 @@ body{
      flex-basis: 4%;
      padding: 30px;
  }
+ #clients .f-item img{
+      max-width: 65px;
+ }
 
 /* Service */
 #service{
@@ -306,7 +309,7 @@ body{
 
 /* Team */
 #team{
-     height: 667px;
+     height: 525px;
      background-color: #f6f9fe; 
 }
 #team .section-title{
@@ -320,10 +323,10 @@ body{
      background-color: #fff;
      flex-basis: 16%;
      box-shadow: #d5d5d5 0px 0px 15px;
-     border-radius: 2px; 
+     border-radius: 5px; 
 }
 #team .section-content .f-item img{
-     max-width: 160px;
+     max-width: 190px;
 }
 #team .section-content .f-item h4{
      font-size: 14px;
@@ -378,23 +381,37 @@ body{
 #contact .section-title{
      height: 90px ;
 }
-#contact .section-content{}
 #contact .f-container{
      display: flex;
      flex-wrap: wrap;
 }
+#contact .f-container i{
+     font-size: 25px;
+     color: #106EEA;
+     border: 2px dotted  #106EEA;
+     padding: 6px;
+     border-radius: 25px;
+}
+#contact .f-container h3{
+     color: #C9C9C9;
+     padding-top: 20px;
+     font-size: 20px;
+}
+#contact .f-container p{
+     padding-top: 15px;
+}
 #contact .f-item{
      background-color: #fff;
-     border: 1px solid white;
+     box-shadow: #d5d5d5 0px 0px 10px;
      text-align: center;
      padding: 20px;
      margin: 20px;
 }
 #contact .f-item.size-a{
-     flex-basis: 16%;
+     flex-basis: 29%;
 }
 #contact .f-item.size-z{
-     flex-basis: 24%;
+     flex-basis: 22%;
 }
 
 /* Newsletter */
@@ -402,27 +419,36 @@ body{
      height: 238px;
      background-color: #F1F6FE;;
 }
-.section-title{
+#newsletter .section-title{
      padding: 36px;
-     color: #444444;
+     color: #222222;
 }
-.section-title h4{
-      font-size: 20px;
+#newsletter .section-title h4{
+      font-size: 25px;
       text-align: center;
-      padding-bottom: 14px; 
+      padding-bottom: 22px; 
 }
-.section-title p{
-       counter-reset: ;
-       font-size: 12px;
+#newsletter .section-title p{
+       font-size: 15px;
        text-align: center;
 }
-.section-content form{
-    margin-top: 30px;
-    background: #fff;
-    padding: 6px 10px;
-    border-radius: 4px;
-    box-shadow: #d5d5d5 0px 0px 15px;
-    text-align: center;
+#newsletter .section-content{
+     text-align: center;
+}   
+#newsletter .section-content form input[type="email"]{
+     border: none;
+     padding: 10px 155px;
+     border-radius: 4px 0px 0px 4px;
+     box-shadow: #d5d5d5 0px 0px 5px;
+}
+#newsletter .section-content form input[type="submit"]{
+     border: none;
+     padding: 7px 14px;
+     font-size: 18px;
+     color: #FFFFFF;
+     background-color: #106EEA;
+     border-radius: 0px 4px 4px 0px;
+     box-shadow: #d5d5d5 0px 0px 5px;
 }
 
 /* Footer */
