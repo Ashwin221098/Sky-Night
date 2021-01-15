@@ -200,7 +200,7 @@ body{
 
 /* Skills */
 #skills{
-     height: 260px;
+     height: 200px;
      background-color: #FFFFFF;
 }
 #skills .f-container{
@@ -216,7 +216,7 @@ body{
 
 /* Statistics */
 #statistics{
-     height: 260px;
+     height: 200px;
      background-color: #FFFFFF;
 }
 #statistics .f-container{
@@ -226,18 +226,26 @@ body{
 }
 #statistics .f-item{
      background-color: #F1F6FE;
-     flex-basis: 14%;
-     padding: 28px;
+     flex-basis: 22%;
      text-align: center;
      border: 1px solid #FFFFFF;
 }
+#statistics .f-item i{
+     font-size: 22px;
+     color: #FFFFFF;
+     padding: 12px;
+     border: 5px solid #FFFFFF;
+     border-radius: 30px;
+     background-color: #106EEA;  
+}
 #statistics .f-item h4{
-     font-size: 20px;
+     padding-top: 20px;
+     font-size: 35px;
      font-weight: 500;
 }
 #statistics .f-item p{
-     font-size: 10px;
-     padding: 9px;
+     font-size: 17px;
+     padding: 10px;
 }
 
 /* Clients */
@@ -386,34 +394,78 @@ body{
      flex-wrap: wrap;
 }
 #contact .f-container i{
-     font-size: 25px;
+     font-size: 33px;
      color: #106EEA;
      border: 2px dotted  #106EEA;
      padding: 6px;
-     border-radius: 25px;
+     border-radius: 30px;
 }
 #contact .f-container h3{
      color: #C9C9C9;
      padding-top: 20px;
      font-size: 20px;
+     font-weight: 600;
 }
 #contact .f-container p{
      padding-top: 15px;
+     font-size: 14px;
 }
 #contact .f-item{
      background-color: #fff;
-     box-shadow: #d5d5d5 0px 0px 10px;
+     box-shadow: #d5d5d5 0px 0px 10px 2px;
      text-align: center;
-     padding: 20px;
-     margin: 20px;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     padding-left: 5px;
+     padding-right: 5px;
+     margin: 13px;
 }
 #contact .f-item.size-a{
-     flex-basis: 29%;
+     flex-basis: 46%;
 }
 #contact .f-item.size-z{
-     flex-basis: 22%;
+     flex-basis: 21%;
 }
-
+#contact .f-item.size-a iframe{
+     box-shadow: none;
+}
+#contact .f-item.size-a  form .form{
+     padding-top: 5px;
+}
+#contact .f-item.size-a form .form input{
+     padding: 5px;
+     border: 1px solid #d5d5d5;
+}
+#contact .f-item.size-a form .subject{
+     padding-top: 20px;
+}
+#contact .f-item.size-a form .subject input[type="text"]{
+     padding: 5px;
+     padding-right: 193px;
+     border: 1px solid #d5d5d5;
+}
+#contact .f-item.size-a form .message{
+     padding-top: 20px;
+}
+#contact .f-item.size-a form .message textarea{
+     font-family: 'Poppins', 'Arial', sans-serif;
+     padding-right: 228px;
+     padding-bottom: 175px;
+     border: 1px solid #d5d5d5;
+}
+#contact .f-item.size-a form .sendmessage{
+     padding-top: 25px;
+}
+#contact .f-item.size-a form .sendmessage input[type="submit"]{
+     padding: 10px;
+     padding-right: 20px;
+     padding-left: 20px;
+     font-size: 17px;
+     border: none;
+     border-radius: 4px;
+     color: #FFFFFF;
+     background-color: #106EEA;
+}
 /* Newsletter */
 #newsletter{
      height: 238px;
