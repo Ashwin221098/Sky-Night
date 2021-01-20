@@ -6,7 +6,7 @@ body{
 
 /* Common Styles */
 .container{
-    width: 900px;
+    width: 1140px;
     margin: 0 auto;
 }
 .primary-btn{
@@ -54,7 +54,7 @@ body{
 .section-title p{
      max-width: 587px;
      margin: auto;
-     line-height: 18px;
+     line-height: 20px;
 }
  
 /* Quick Links */
@@ -93,16 +93,17 @@ body{
      color: #222222;
 }
 #header .f-container .f-item h1{
-    font-size: 30px;
-}
+    font-size: 32px;
+    font-weight: 600;
+    }
 #header .f-container .f-item span{
      color: #106EEA;
 }
 #header .f-container .f-item a{
-     padding: 10px;
-     color: #707070;
-     font-size: 12px;
-     font-weight: 700;
+     padding: 15px;
+     color: #222222;
+     font-size: 15px;
+     font-weight: 600;
      text-decoration: none;
 }
 
@@ -148,7 +149,7 @@ body{
  
  /* Highlights */
  #highlights{
-     height: 200px;
+     height: 280px;
      background-color: #FFFFFF;
      padding: 58px 0 0 0;
 }
@@ -159,7 +160,7 @@ body{
  #highlights .f-item{
      background-color: #fff;
      flex-basis: 18%;
-     padding: 17px;
+     padding: 25px;
      box-shadow: #d5d5d5 0px 0px 10px;
      border-radius: 8px;
  }
@@ -169,11 +170,13 @@ body{
  }
  #highlights .f-item h4{
       padding-top: 15px;
-      font-size: 14px;
+      font-size: 18px;
+      font-weight: 700;
  }
  #highlights .f-item p{
       padding-top: 15px;
-      font-size: 10px;
+      font-size: 15px;
+      line-height: 28px;
       color: #444444;
  }
 
@@ -216,7 +219,7 @@ body{
 
 /* Statistics */
 #statistics{
-     height: 200px;
+     height: 210px;
      background-color: #FFFFFF;
 }
 #statistics .f-container{
@@ -239,18 +242,21 @@ body{
      background-color: #106EEA;  
 }
 #statistics .f-item h4{
-     padding-top: 20px;
-     font-size: 35px;
+     padding-top: 25px;
+     font-size: 36px;
      font-weight: 500;
+     color: #062b5b;
 }
 #statistics .f-item p{
-     font-size: 17px;
-     padding: 10px;
+     padding-top: 10px;
+     padding-bottom: 25px;
+     font-size: 14px;
+     font-weight: 300;
 }
 
 /* Clients */
 #clients{
-     height: 80px;
+     height: 95px;
      background-color: #F6F9FE;
  }
  #clients .f-container{
@@ -262,12 +268,12 @@ body{
      padding: 30px;
  }
  #clients .f-item img{
-      max-width: 65px;
+      max-width: 75px;
  }
 
 /* Service */
 #service{
-     height: 670px;
+     height: 800px;
      background-color: #FFFFFF;
 }
 #service .section-title{
@@ -281,7 +287,7 @@ body{
 #service .section-content .f-item{
      background-color: #fff;
      flex-basis: 24%;
-     padding: 24px;
+     padding: 38px;
      margin-bottom: 25px;
      border: 1px solid #E2EEFD;
      text-align: center;
@@ -296,11 +302,15 @@ body{
 }
 #service .section-content .f-item h4{
       padding-top: 45px;
-      font-size: 23x;
+      font-size: 24x;
+      font-weight: 700;
 }
 #service .section-content .f-item p{ 
       padding-top: 24px;
-      font-size: 13px;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 24px;
+
  }
 
 /* Testimonials */
@@ -317,7 +327,7 @@ body{
 
 /* Team */
 #team{
-     height: 525px;
+     height: 580px;
      background-color: #f6f9fe; 
 }
 #team .section-title{
@@ -329,20 +339,22 @@ body{
 }
 #team .section-content .f-item{
      background-color: #fff;
-     flex-basis: 16%;
+     flex-basis: 22%;
      box-shadow: #d5d5d5 0px 0px 15px;
      border-radius: 5px; 
 }
 #team .section-content .f-item img{
-     max-width: 190px;
+     max-width: 250px;
 }
 #team .section-content .f-item h4{
-     font-size: 14px;
+     font-size: 18px;
+     font-weight: 700;
      padding: 14px;
 }
 #team .section-content .f-item p{
-     color: #B3B3B3;
-     font-size: 11px;
+     color: #aaaaaa;
+     font-size: 13px;
+     font-weight: 400;
      padding-left: 14px;
      padding-bottom: 14px;
 }
@@ -367,7 +379,7 @@ body{
 }
 /* FAQ */
 #faq{
-     height: 550px;
+     height: 500px;
      background-color: #F6F9FE;
 }
 #faq .section-title{
@@ -378,12 +390,19 @@ body{
      flex-wrap: wrap;
 }
 #faq .section-content .f-item{
-     line-height: 52px;
-     color: #444444;
+     line-height: 45px;
+     color: #5D6369;
+}
+#faq .section-content .f-item i{
+     font-size: 18px;
+     color: #222222;
+}
+#faq .section-content .f-item p{
+     font-size: 18px;
 }
 /* Contact */
 #contact{
-     height: 882px;  
+     height: 900px;  
      background-color: #FFFFFF;
 }
 #contact .section-title{
@@ -396,23 +415,25 @@ body{
 #contact .f-container i{
      font-size: 33px;
      color: #106EEA;
-     border: 2px dotted  #106EEA;
-     padding: 6px;
-     border-radius: 30px;
+     border: 2px dotted #b3d1fa;
+     padding: 8px;
+     border-radius: 50px;
 }
 #contact .f-container h3{
-     color: #C9C9C9;
-     padding-top: 20px;
+     color: #777777;
+     padding-top: 25px;
      font-size: 20px;
-     font-weight: 600;
+     font-weight: 700;
 }
 #contact .f-container p{
      padding-top: 15px;
      font-size: 14px;
+     font-weight: 300;
+     line-height: 24px;
 }
 #contact .f-item{
      background-color: #fff;
-     box-shadow: #d5d5d5 0px 0px 10px 2px;
+     box-shadow: 0px 0 25px 0 rgba(16, 110, 234, 0.1);
      text-align: center;
      padding-top: 25px;
      padding-bottom: 25px;
@@ -421,40 +442,39 @@ body{
      margin: 13px;
 }
 #contact .f-item.size-a{
-     flex-basis: 46%;
+     flex-basis: 45%;
 }
 #contact .f-item.size-z{
      flex-basis: 21%;
 }
-#contact .f-item.size-a iframe{
-     box-shadow: none;
-}
 #contact .f-item.size-a  form .form{
-     padding-top: 5px;
+     margin-top: 5px;
 }
 #contact .f-item.size-a form .form input{
-     padding: 5px;
+     padding: 13px 13px;
+     width: 202px;
      border: 1px solid #d5d5d5;
 }
 #contact .f-item.size-a form .subject{
-     padding-top: 20px;
+     margin-top: 20px;
 }
 #contact .f-item.size-a form .subject input[type="text"]{
-     padding: 5px;
-     padding-right: 193px;
+     padding: 13px 13px;
+     width: 436px;
      border: 1px solid #d5d5d5;
 }
 #contact .f-item.size-a form .message{
      padding-top: 20px;
 }
 #contact .f-item.size-a form .message textarea{
-     font-family: 'Poppins', 'Arial', sans-serif;
-     padding-right: 228px;
-     padding-bottom: 175px;
+     font-family: 'Arial';
+     padding: 13px 13px;
+     height: 133px;
+     width: 436px;
      border: 1px solid #d5d5d5;
 }
 #contact .f-item.size-a form .sendmessage{
-     padding-top: 25px;
+     margin-top: 20px;
 }
 #contact .f-item.size-a form .sendmessage input[type="submit"]{
      padding: 10px;
@@ -514,7 +534,21 @@ body{
 }
 #footer .f-item{
     flex-basis: 12%;
-    padding: 45px;
+    padding: 65px;
+}
+#footer .f-item h3{
+     color: #444444;
+     font-size: 24px;
+     font-weight: 700;
+}
+#footer .f-item span{
+     color: #106EEA;
+}
+#footer .f-item p{
+     padding-top: 30px;
+     font-size: 14px;
+     line-height: 24px;
+     color: #777777;
 }
 
 /* Legals */
@@ -525,7 +559,7 @@ body{
 #legals .f-container{
      display: flex;
      justify-content: space-between;
-     padding-top: 34px;
+     padding-top: 28px;
 }
 #legals .f-container .f-item{
      font-size: 14px;
